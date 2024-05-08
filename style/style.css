@@ -1,12 +1,14 @@
 body{
   padding: 10px;
-  background-color:aliceblue;
+  background-color: lightblue;
 }
 
 #head{
   display: flex;               /* Define o contêiner como um flex container */
   justify-content: space-between;
   padding: 10px;
+  background-color:cadetblue;
+
 }
 
 #user_name{
@@ -16,7 +18,7 @@ body{
 
 #mns_box{
   display: flex;
-  background-color:lightblue;
+  background-color:cadetblue;
   margin-top: 10px;
   padding: 10px;
 }
@@ -38,7 +40,7 @@ body{
 
 #info{
   padding: 10px;
-  border: 2px solid lightgray;
+  border: 2px solid gray;
   margin-top: 10px;
 }
 
