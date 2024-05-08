@@ -1,9 +1,51 @@
-div {
-  width: 300px;
-  height: 50px;
-  border: 15px solid green;
-  padding: 50px;
-  margin: 20px;
-  display: block;
-  position: relative;
+body{
+  padding: 10px;
+  background-color:aliceblue;
+}
+
+#head{
+  display: flex;               /* Define o contêiner como um flex container */
+  justify-content: space-between;
+  padding: 10px;
+}
+
+#user_name{
+  font-size: 30px;
+  margin-top: 10px;
+}
+
+#mns_box{
+  display: flex;
+  background-color:lightblue;
+  margin-top: 10px;
+  padding: 10px;
+}
+
+#icon{
+  margin-right: 5px;
+}
+
+#list{
+  padding-inline: 5px;
+}
+
+#category{
+  display: flex;               /* Define o contêiner como um flex container */
+  justify-content: space-between;
+  margin-top: 10px;
+  padding: 10px;
+}
+
+#info{
+  padding: 10px;
+  border: 2px solid lightgray;
+  margin-top: 10px;
+}
+
+#mat{
+  font-size: 20px;
+}
+
+#details{
+  font-size: 13px;
 }
