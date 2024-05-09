@@ -2,29 +2,42 @@ body{
   padding: 10px;
   background-color: lightblue;
 }
-
+img{
+  width: 7vw;
+}
 #head{
   display: flex;               /* Define o contêiner como um flex container */
   justify-content: space-between;
   padding: 10px;
   background-color:cadetblue;
-
+  border-radius: 20px;
 }
 
 #user_name{
-  font-size: 30px;
+  font-size: 6vw;
   margin-top: 10px;
 }
 
 #mns_box{
   display: flex;
   background-color:cadetblue;
+  border-radius: 20px;
   margin-top: 10px;
   padding: 10px;
 }
 
+#label{
+  font-size: 5vw;
+}
+#mns, #mat{
+  font-size: 4vw;
+}
+#details{
+  font-size: 3vw;
+}
+
 #icon{
-  margin-right: 5px;
+  margin-right: 2vw;
 }
 
 #list{
@@ -41,13 +54,7 @@ body{
 #info{
   padding: 10px;
   border: 2px solid gray;
+  border-radius: 20px;
   margin-top: 10px;
 }
 
-#mat{
-  font-size: 20px;
-}
-
-#details{
-  font-size: 13px;
-}
