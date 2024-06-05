@@ -1,9 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+:root {
+  --cor-click: #126ae2; /* Click */
+  --cor-sombra: #0a599b; /* Azul Escuro */
+  --cor-text: black; /* Preto */
+  --cor-back1: #edf2f4; /* Azul claro */
+  --cor-back2: #6a937a; /* Verde Escuro */
+}
 
-body{
+body {
   font-family: 'Roboto', sans-serif;
   padding: 10px;
-  background-color: #ECF0F1;
+  margin: 0px;
+  background-color: var(--cor-back1);
 }
 img{
   width: 7vw;
@@ -67,5 +75,29 @@ img{
 }
 .path_logo{
   fill: #126ae2;
+}
+#menu_aba {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: white;
+  overflow-x: hidden;
+  transition: 0.5s;
+  z-index: 1;
+}
+
+#menu_bot {
+  position: relative;
+  padding: 20px;
+  display: block; /* corrigido */
+  cursor: pointer;
+  font-family: "Arimo", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-style: normal;
+  font-size: 54pt;
+  color: var(--cor-click);
 }
 

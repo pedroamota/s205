@@ -10,7 +10,12 @@
 <body>
 	<header id="head">
 		<div id="menu">
-			<img src="assets/menu.svg">
+			<img src="assets/menu.svg" onclick="openMenu();"> <!-- corrigido -->
+			<div id="menu_aba">
+				<div id="menu_bot" onclick="closeMenu(); temaInatel();">Tema Inatel</div>
+				<div id="menu_bot" onclick="closeMenu(); temaLim();">Tema Limão</div>
+				<div id="menu_bot" onclick="closeMenu(); temaDark();">Tema Dark</div>
+			</div>
 		</div>
 		<svg class="svg_logo" xmlns="http://www.w3.org/2000/svg" viewBox="100 150 390 116">
 			<path class="path_logo"
@@ -73,14 +78,8 @@
 				</div>
 			</div>
 		</div>
-		<p>Gif para a tela de loadind das vagas:</p>
-		<div style="padding-top:100.000%;position:relative;"><iframe src="https://gifer.com/embed/7kRE" width="50%"
-				height="50%" style='position:absolute;top:0;left:0;' frameBorder="0" allowFullScreen>
-			</iframe>
-		</div>
-		<iframe src="https://gifer.com/embed/XOsX" width=480 height=601.567 frameBorder="0" allowFullScreen></iframe>
-
 	</main>
+	<script src="scripts/script.js"></script>
 </body>
 
 </html>
