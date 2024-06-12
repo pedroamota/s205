@@ -37,3 +37,21 @@ function openMenu() {
       document.documentElement.style.setProperty('--cor-back2', '#6a937a');
     
   }
+  // Quando o documento estiver pronto
+document.addEventListener('DOMContentLoaded', function() {
+  // Mostra o popup
+  var popup = document.getElementById('meuPopup');
+  popup.style.display = 'block';
+
+  // Quando o usuário clicar no 'x' para fechar
+  document.querySelector('.fechar').onclick = function() {
+      popup.style.display = 'none';
+  };
+
+  // Quando o usuário clicar fora do popup, ele também fecha
+  window.onclick = function(event) {
+      if (event.target == popup) {
+          popup.style.display = 'none';
+      }
+  };
+});
