@@ -22,11 +22,20 @@ img{
   padding: 10px;
   background-color: white;
   border-radius: 20px;
+  margin-bottom: 25px;
 }
 
 #user_name{
   font-size: 6vw;
   margin-top: 10px;
+}
+
+#mns_box{
+  display: flex;
+  background-color:white;
+  border-radius: 20px;
+  margin-top: 10px;
+  padding: 10px;
 }
 
 #mns_box{
@@ -50,6 +59,15 @@ img{
 #icon{
   margin-right: 2vw;
   fill: #126ae2;
+  display: flex;
+}
+
+#spacer{
+  padding-right: 10wh;
+  padding-left: 10wh;
+  margin-right: 10wh;
+  margin-right: 10wh;
+
 }
 
 #list{
@@ -69,6 +87,7 @@ img{
   border-radius: 20px;
   margin-top: 10px;
 }
+
 
 .svg_logo{
   width: 150px;
