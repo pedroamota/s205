@@ -62,14 +62,6 @@ img{
   display: flex;
 }
 
-#spacer{
-  padding-right: 10wh;
-  padding-left: 10wh;
-  margin-right: 10wh;
-  margin-right: 10wh;
-
-}
-
 #list{
   padding-inline: 5px;
 }
@@ -120,40 +112,55 @@ img{
   color: var(--cor-click);
 }
 
-/* Estilo do Popup */
 .popup {
+  display: none;
   position: fixed;
+  z-index: 1;
   left: 0;
   top: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.5);
-  display: none; /* Escondido por padrão */
-  z-index: 1; /* Garante que o popup fique sobre outros conteúdos */
+  overflow: auto;
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0,0.4);
 }
 
-/* Conteúdo do Popup */
 .popup-conteudo {
-  position: relative;
   background-color: #fefefe;
   margin: 15% auto;
   padding: 20px;
   border: 1px solid #888;
   width: 80%;
-  max-width: 600px;
+  border-radius: 25px; 
 }
-
-/* Botão de fechar */
 .fechar {
   color: #aaa;
   float: right;
   font-size: 28px;
   font-weight: bold;
 }
-
 .fechar:hover,
 .fechar:focus {
   color: black;
   text-decoration: none;
   cursor: pointer;
+}
+
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  font-size: 30px;
+  cursor: pointer;
+  border-radius: 25px; /* Bordas arredondadas */
+  border: none; /* Remove a borda padrão do botão */
+margin-left: 30vw;
+margin-top: 25px;
+}
+
+.button:hover {
+  background-color: #0056b3; /* Cor de fundo ao passar o mouse */
 }
